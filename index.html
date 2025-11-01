@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday - Elegant Edition</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Music Control -->
+    <div class="music-control" id="musicControl">
+        <button id="musicToggle">
+            <span class="icon">🎵</span>
+        </button>
+    </div>
+
+    <!-- Navigation Dots -->
+    <div class="nav-dots">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+        <span class="dot" data-slide="3"></span>
+        <span class="dot" data-slide="4"></span>
+        <span class="dot" data-slide="5"></span>
+    </div>
+
+    <!-- Slide Container -->
+    <div class="slide-container">
+        
+        <!-- Slide 1: Pembuka -->
+        <section class="slide active" id="slide1">
+            <div class="particles"></div>
+            <div class="content fade-in">
+                <div class="elegant-border">
+                    <h1 class="glitch" data-text="HAPPY BIRTHDAY">HAPPY BIRTHDAY</h1>
+                    <div class="line-decoration"></div>
+                    <p class="subtitle">Celebrating Another Year of Excellence</p>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <div class="arrow-down"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 2: Biodata Yang Ulang Tahun -->
+        <section class="slide" id="slide2">
+            <div class="content slide-left">
+                <div class="profile-card">
+                    <div class="card-glow"></div>
+                    <div class="profile-image">
+                        <div class="image-placeholder">
+                            <span class="initial">R</span>
+                        </div>
+                        <div class="ring-decoration"></div>
+                    </div>
+                    <h2 class="name-title">Robby Dharmawan</h2>
+                    <div class="divider-gold"></div>
+                    <div class="bio-details">
+                        <div class="bio-item">
+                            <span class="label">Tanggal Lahir</span>
+                            <span class="value">29 Oktober 2007</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="label">Usia</span>
+                            <span class="value">18 Tahun</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="label">Pekerjaan</span>
+                            <span class="value">Pelajar Pro Max</span>
+                        </div>
+                        <div class="bio-item">
+                            <span class="label">Hobi</span>
+                            <span class="value">Game, Makan, Bantu Orang Tua</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Kue & Ucapan -->
+        <section class="slide" id="slide3">
+            <div class="content zoom-in">
+                <div class="cake-container">
+                    <div class="cake">
+                        <div class="candle-group">
+                            <div class="candle"><div class="flame"></div></div>
+                            <div class="candle"><div class="flame"></div></div>
+                            <div class="candle"><div class="flame"></div></div>
+                        </div>
+                        <div class="cake-layer layer3"></div>
+                        <div class="cake-layer layer2"></div>
+                        <div class="cake-layer layer1"></div>
+                    </div>
+                </div>
+                <h2 class="wishes-title">Selamat Ulang Tahun!</h2>
+                <p class="wishes-text">
+                    Semoga di usia yang baru ini, <br>
+                    kesuksesan selalu menyertai setiap langkahmu. <br>
+                    Tetaplah menjadi pribadi yang luar biasa!<br>
+                    Traktiran Boss!!! 🎉🎂
+                </p>
+                <div class="sparkles"></div>
+            </div>
+        </section>
+
+        <!-- Slide 4: Doa & Harapan -->
+        <section class="slide" id="slide4">
+            <div class="content fade-up">
+                <div class="prayer-box">
+                    <div class="corner-decoration tl"></div>
+                    <div class="corner-decoration tr"></div>
+                    <div class="corner-decoration bl"></div>
+                    <div class="corner-decoration br"></div>
+                    
+                    <h2 class="prayer-title">Doa & Harapan</h2>
+                    <div class="prayer-content">
+                        <div class="prayer-item">
+                            <div class="icon-prayer">🙏</div>
+                            <p>Barakallahu fii Umrik, Semoga selalu diberikan kesehatan dan kebahagiaan yang melimpah</p>
+                        </div>
+                        <div class="prayer-item">
+                            <div class="icon-prayer">⭐</div>
+                            <p>Semoga karir dan usahamu semakin berkembang dan mencapai puncak kesuksesan</p>
+                        </div>
+                        <div class="prayer-item">
+                            <div class="icon-prayer">💎</div>
+                            <p>Semoga dikelilingi oleh orang-orang terbaik dan penuh cinta kasih</p>
+                        </div>
+                        <div class="prayer-item">
+                            <div class="icon-prayer">🌟</div>
+                            <p>Semoga segala impian dan harapanmu terwujud dengan gemilang</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 5: Biodata Pembuat -->
+        <section class="slide" id="slide5">
+            <div class="content rotate-in">
+                <div class="creator-card">
+                    <div class="card-header">
+                        <h2>Created By</h2>
+                        <div class="header-line"></div>
+                    </div>
+                    <div class="creator-info">
+                        <div class="creator-avatar">
+                            <span>K</span>
+                        </div>
+                        <h3 class="creator-name">Kesya</h3>
+                        <p class="creator-role">Web Developer & Designer</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <span>📧</span>
+                                <span>kesyapujiatmoko@gmail.com</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span>💼</span>
+                                <span>https://github.com/KesyaCODE</span>
+                            </a>
+                            <a href="#" class="social-link">
+                                <span>📱</span>
+                                <span>08xx-xxxx-xxxx</span>
+                            </a>
+                        </div>
+                        <p class="creator-quote">
+                            "Dibuat dengan penuh perhatian dan dedikasi khusus untuk merayakan hari istimewamu"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: Penutup -->
+        <section class="slide" id="slide6">
+            <div class="content scale-in">
+                <div class="closing-box">
+                    <h2 class="closing-title">Terima Kasih</h2>
+                    <div class="closing-ornament"></div>
+                    <p class="closing-text">
+                        Terima kasih telah hadir dan merayakan hari spesial ini. <br>
+                        Semoga kenangan indah ini akan selalu terukir dalam hati.
+                    </p>
+                    <div class="signature">
+                        <p>With Love & Best Wishes</p>
+                        <p>Maap Agak Telat</p>
+                        <div class="signature-line"></div>
+                    </div>
+                    <button class="btn-restart" id="restartBtn">
+                        <span>Kembali ke Awal</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </div>
+                <div class="floating-hearts"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="Sempurna - Andra And The Backbone _ Piano Instrumental.mp4" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
